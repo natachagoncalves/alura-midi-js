@@ -65,3 +65,23 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 #dfb79d inset, 1px 1px 10px var(--luz);
 }
+
+@media (max-width: 412px) {
+  .tecla {
+    height: 90px;
+    font-size: 1.25em;
+    line-height: 90px;
+    width: 90px;
+  }
+
+}
+
+@media (max-width: 342px) {
+  .tecla {
+    border-radius: 20px;
+    height: 70px;
+    font-size: 1em;
+    line-height: 70px;
+    width: 70px;
+  }
+}
